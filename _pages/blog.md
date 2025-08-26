@@ -4,5 +4,5 @@ title: "Blog"
 layout: home
 ---
 
-## ✍️ مدونتي
-هنا هشارك مقالات قصيرة عن **المحاسبة**، **الـ VAT في الإمارات**، وتجربتي مع برامج الـ ERP مثل **QuickBooks و Odoo وZoho Books**.
+## My blog
+Here, I’ll share short articles about accounting, VAT in the UAE, and my experience with ERP software like QuickBooks, Odoo, and Zoho Books.
