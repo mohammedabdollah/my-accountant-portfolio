@@ -8,72 +8,117 @@
 
 /* ========= Custom Glassmorphism ========= */
 :root{
-  --glass-bg: rgba(255,255,255,.12);
-  --glass-brd: rgba(255,255,255,.25);
-  --glass-shadow: 0 8px 24px rgba(0,0,0,.18);
-  --brand: #00adb5;        /* لون رئيسي هادي */
-  --brand-2: #3a506b;      /* لون ثانوي */
+  --glass-bg: rgba(255,255,255,.18);
+  --glass-brd: rgba(255,255,255,.35);
+  --glass-shadow: 0 8px 28px rgba(0,0,0,.22);
+  --brand: #00e0ff;        /* تركواز جذاب */
+  --brand-2: #9d4edd;      /* بنفسجي فاخر */
+  --accent: #48cae4;       /* أزرق سماوي */
+  --text-main: #f9f9fb;    /* نص أبيض شبه ناعم */
+  --text-sec: #dbe4ee;     /* رمادي فاتح */
 }
 
-/* خلفية متدرجة لطيفة للموقع كله */
+/* خلفية متدرجة مبهجة للموقع */
 body{
-  background: linear-gradient(135deg,#0b132b,#1c2541,#3a506b);
+  background: linear-gradient(135deg,#240046,#3c096c,#5a189a,#00b4d8);
   background-attachment: fixed;
+  color: var(--text-main);
 }
 
-/* شفافية للأقسام الأساسية */
+/* أقسام شفافة */
 .page, .archive, .page__content, .sidebar, .page__inner-wrap{
   background: transparent;
+  color: var(--text-main);
 }
 
 /* هيدر علوي زجاجي */
 .masthead, .greedy-nav{
   background: rgba(255,255,255,.08);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--glass-brd);
 }
 
-/* بطاقات/صناديق زجاجية خفيفة */
+/* صناديق زجاجية */
 .notice, .card, .page__content .box, .page__inner-wrap{
   background: var(--glass-bg);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid var(--glass-brd);
   box-shadow: var(--glass-shadow);
-  border-radius: 16px;
-  padding-top: 0.5rem;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
-/* بطل الصفحة (الهيدر) أكثر وضوحًا فوق الصورة */
+/* بطل الصفحة */
 .page__hero--overlay::before{
-  background-color: rgba(0,0,0,.35);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  background-color: rgba(0,0,0,.25);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
-/* أزرار أنضف */
+/* أزرار */
 .btn{
-  border-radius: 14px;
+  border-radius: 16px;
   border: 1px solid var(--glass-brd);
-  box-shadow: 0 4px 14px rgba(0,0,0,.15);
+  box-shadow: 0 4px 16px rgba(0,0,0,.18);
+  font-weight: 600;
+  transition: all .25s ease;
 }
 .btn--primary{
-  background: var(--brand);
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
   border-color: transparent;
+  color: #fff !important;
+}
+.btn--primary:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
 }
 a, .page__content a{
-  color: var(--brand);
+  color: var(--accent);
+  font-weight: 500;
+  transition: color .25s ease;
+}
+a:hover{
+  color: var(--brand-2);
 }
 
-/* نصوص مقروءة */
-.page__title { letter-spacing: .2px; }
-.page__content p{ line-height: 1.85; }
+/* تحسين النصوص */
+.page__title { 
+  letter-spacing: .3px; 
+  font-weight: 700;
+  color: #fff;
+}
+.page__content p{ 
+  line-height: 1.9; 
+  font-size: 1.05rem;
+  color: var(--text-sec);
+}
 
-/* فوتر بسيط شبه زجاجي */
+/* صندوق البريد (forms) زجاجي */
+input, textarea{
+  background: rgba(255,255,255,.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-brd);
+  color: #fff;
+  border-radius: 14px;
+  padding: 0.6rem;
+}
+input::placeholder, textarea::placeholder{
+  color: #e0e0e0;
+}
+input:focus, textarea:focus{
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(0,224,255,.3);
+}
+
+/* فوتر */
 .page__footer{
-  background: rgba(255,255,255,.06);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(255,255,255,.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--glass-brd);
+  color: var(--text-sec);
 }
