@@ -1,0 +1,8 @@
+title: "Mohammed Abdallah — Accountant (UAE)"
+description: "Portfolio & Blog: Accounting • UAE VAT • ERP (QuickBooks, Odoo, SAP FI) • Excel"
+lang: en
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
