@@ -1,0 +1,11 @@
+my-accountant-portfolio/
+  _config.yml
+  index.md
+  _pages/
+    about.md
+    resume.md
+    portfolio.md
+    contact.md
+    blog.md
+  _posts/
+    2025-08-26-uae-vat-basics.md
