@@ -23,6 +23,7 @@ header:
 This guide is a quick, job-ready overview of <strong>UAE VAT (5%)</strong> for junior accountants:
 thresholds, returns flow, common mistakes, plus a practical checklist before filing.
 </p>
+![VAT Banner](/images/vat-banner.png)
 
 > **Tip (نصيحة):** Keep a simple **Excel turnover tracker** updated weekly to monitor the registration threshold.
 {: .notice--info}
