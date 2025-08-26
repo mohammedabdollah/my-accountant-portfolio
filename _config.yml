@@ -2,48 +2,18 @@ title: "Mohammed Abdallah — Accountant (UAE)"
 description: "Portfolio & Blog: UAE VAT • ERP (QuickBooks, Odoo, SAP FI) • Excel"
 lang: en
 
-# استخدم القالب العصري
+# القالب الجديد (remote theme)
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
-# إضافات مدعومة من GitHub Pages
+# إضافات مدعومة
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
-# سمة ألوان القالب (تقدر تغيّرها لاحقًا: default, dark, neon, sunrise...)
+# سِمة الألوان (تقدر تغيّرها لاحقًا)
 minimal_mistakes_skin: "default"
 
-# بيانات المؤلف
+# بيانات الكاتب (تظهر في البايو الجانبي)
 author:
   name: "Mohammed Abdallah"
-  avatar: "/assets/img/avatar.jpg"   # اختياري: ارفع صورة هنا
-  bio: "Junior Accountant • UAE VAT • ERP & Excel automation"
-  location: "UAE"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
-    - label: "WhatsApp"
-      icon: "fab fa-whatsapp"
-      url: "https://wa.me/201033183247"
-
-# تفعيل قائمة التنقل من ملف بيانات
-collections:
-  posts:
-    output: true
-
-# روابط القائمة (هتتسحب من _data/navigation.yml)
-include: [_pages]
-
-# تحسين روابط
-permalink: /:categories/:title/
-
-# مسار بحث وصور
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
