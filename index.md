@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Mohammed Abdallah — Accountant (UAE)"
-excerpt: "UAE VAT • ERP (QuickBooks, Odoo, SAP FI) • Excel"
+excerpt: "UAE VAT • ERP (QuickBooks, Odoo, Zoho Books, Daftara) • Excel"
 ---
 
 ### 👋 Welcome!
