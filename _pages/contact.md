@@ -4,19 +4,20 @@ title: "Contact"
 layout: single
 ---
 
-## 📬 تواصل معي
+## 📬 Contact with me
 
-- 📱 **واتساب**: [اضغط هنا للتواصل](https://wa.me/20162608662)  
-- 📧 **إيميل**: [mohammed@example.com](mailto:mohammed@mohammedabdollah.online)  
-- 💼 **لينكدإن**: [ملفي الشخصي](https://www.linkedin.com/in/mohammedabdallafpa/) 
-- 📘 **فيسبوك**: [صفحتي](https://web.facebook.com/mohammed.abdallah.545581)
+- 📱 **WatsApp**: [Click here to Contactt](https://wa.me/20162608662)  
+- 📧 **Email**: [mohammed@example.com](mailto:mohammed@mohammedabdollah.online)  
+- 💼 **LinkidIn**: [My profile](https://www.linkedin.com/in/mohammedabdallafpa/) 
+- 📘 **Facebook**: [My Page](https://web.facebook.com/mohammed.abdallah.545581)
 
 
 
-## 🕒 أوقات التواصل
-- الإثنين – الجمعة: 9 صباحًا حتى 6 مساءً (UAE Time)  
-- السبت: 10 صباحًا حتى 2 ظهرًا  
-- الأحد: إجازة
+## 🕒 Contacts Times
+-  Monday PM 9 AM From 6 To Friday (UAE Time)
+-  Saturday: 10:00 AM to 2:00 PM
+- Sunday: Holiday
+
 
 
 
