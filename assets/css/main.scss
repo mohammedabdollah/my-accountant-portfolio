@@ -1,0 +1,79 @@
+---
+# هذا الملف الوحيد الذي يحتاج Front Matter
+---
+
+/* استيراد سكين القالب ثم القالب نفسه */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
+@import "minimal-mistakes";
+
+/* ========= Custom Glassmorphism ========= */
+:root{
+  --glass-bg: rgba(255,255,255,.12);
+  --glass-brd: rgba(255,255,255,.25);
+  --glass-shadow: 0 8px 24px rgba(0,0,0,.18);
+  --brand: #00adb5;        /* لون رئيسي هادي */
+  --brand-2: #3a506b;      /* لون ثانوي */
+}
+
+/* خلفية متدرجة لطيفة للموقع كله */
+body{
+  background: linear-gradient(135deg,#0b132b,#1c2541,#3a506b);
+  background-attachment: fixed;
+}
+
+/* شفافية للأقسام الأساسية */
+.page, .archive, .page__content, .sidebar, .page__inner-wrap{
+  background: transparent;
+}
+
+/* هيدر علوي زجاجي */
+.masthead, .greedy-nav{
+  background: rgba(255,255,255,.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-brd);
+}
+
+/* بطاقات/صناديق زجاجية خفيفة */
+.notice, .card, .page__content .box, .page__inner-wrap{
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-brd);
+  box-shadow: var(--glass-shadow);
+  border-radius: 16px;
+  padding-top: 0.5rem;
+}
+
+/* بطل الصفحة (الهيدر) أكثر وضوحًا فوق الصورة */
+.page__hero--overlay::before{
+  background-color: rgba(0,0,0,.35);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* أزرار أنضف */
+.btn{
+  border-radius: 14px;
+  border: 1px solid var(--glass-brd);
+  box-shadow: 0 4px 14px rgba(0,0,0,.15);
+}
+.btn--primary{
+  background: var(--brand);
+  border-color: transparent;
+}
+a, .page__content a{
+  color: var(--brand);
+}
+
+/* نصوص مقروءة */
+.page__title { letter-spacing: .2px; }
+.page__content p{ line-height: 1.85; }
+
+/* فوتر بسيط شبه زجاجي */
+.page__footer{
+  background: rgba(255,255,255,.06);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid var(--glass-brd);
+}
